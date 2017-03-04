@@ -95,6 +95,29 @@
             </form>
 
 
+            <?php
+
+            echo "Suma este: ";
+            echo 4+3;
+
+            $name = "Papp";
+            $a = 4;
+            $b = 5;
+
+            echo " Salut ";
+            echo $name;
+            $fname = "Alina";
+            echo "<br>".$fname . " " .$name;
+
+            function getName($fname , $name){
+            return $fname ." " . $name;
+            }
+            echo "<br>Nume Complet : ".getName($fname , $name);
+
+            ?>
+
+
+
             <table id="agenda">
                 <thead>
 
