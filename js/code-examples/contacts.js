@@ -44,15 +44,17 @@ function removeContact(id) {
 }
 
 function loadContacts() {
-    $.ajax({
-        url: 'js/mocks/load-contacts.json'
-    }).done(function (contacts) {
-        console.debug('contacts have been loaded:', contacts);
-        // store in global variable so can be accessed in edit
-        window.contacts = contacts;
-        showContacts(contacts);
+    $.ajax('servlets/contacts.php',{
+        dataType: 'json',
+         succes :function (contacts) {
+             console.info('contacts have been loaded:', contacts);
+             showContacts(contacts);
+         }
     });
 }
+loadContacts();
+
+
 
 function findContactById(id) {
     for (var i = 0; i < contacts.length; i++) {

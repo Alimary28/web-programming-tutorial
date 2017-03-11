@@ -1,0 +1,9 @@
+[
+  /*{"firstName": "Nicolae", "lastName": "Matei", "phone": "123"},
+  {"firstName": "Victor", "lastName": "D", "phone": "345"},
+ {"firstName": "XX", "lastName": "AA", "phone": "345"}
+*/
+  {"firstName":"Alina" , "lastName":"Papp" , "phone":"0770511315"},
+  {"firstName":"Eva" ,"lastName":"Ionescu" , "phone":"0011654322"},
+  {"firstName":"Anda" , "lastName":"Dumitru" , "phone":"0055123787"}
+]
